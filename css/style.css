@@ -6,17 +6,16 @@ body {
 
 nav {
   padding: 1em;
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   nav .nav-bar1 {
     color: #636970;
     text-decoration: none;
-    font-size: 1.15em;
-    margin-right: 4em; }
+    font-size: 1.15em; }
   nav .nav-bar {
     color: #888888;
     text-decoration: none;
-    font-size: 1.15em;
-    margin-right: 4em; }
+    font-size: 1.15em; }
     nav .nav-bar:hover {
       color: black; }
 
@@ -105,8 +104,20 @@ footer {
     footer .footer-text .footer-link {
       color: white; }
 
-@media (min-width: 768px) {
-  footer .footer-text {
-    color: aqua; } }
+@media (min-width: 479px) {
+  header .header-image-box {
+    box-sizing: border-box;
+    height: 25em;
+    padding-top: 7em; } }
+@media (min-width: 767px) {
+  body .three-boxes {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 1em 2em; }
+  body .price-points {
+    display: block;
+    float: left;
+    width: 29%;
+    margin: 3em 1em; } }
 
 /*# sourceMappingURL=style.css.map */
